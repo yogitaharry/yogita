@@ -1,0 +1,8 @@
+---
+- hosts: webserver
+  name: myplay
+  tasks:
+      - name: display date
+        command: date
+      - name: display uptime
+        command:  uptime
