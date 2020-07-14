@@ -1,0 +1,16 @@
+---
+ - hosts: webserver
+   name: play using condition
+   vars: 
+      age: 19
+   tasks:
+        - name: create file
+          command: touch /home/yogita/yogi/f1
+          when: age == 20
+        - name: create file
+          command: touch /home/yogita/yogi/f2
+          when: age > 20
+        - name: create file
+          command: touch /home/yogita/yogi/f3
+          when: age < 20
+
