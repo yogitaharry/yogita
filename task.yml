@@ -1,0 +1,10 @@
+  - name: create file
+    command: touch /home/yogita/yogi/ {{ var1 }}.txt
+  - name: create file
+    command: touch /home/yogita/yogi/ {{ var2 }}.txt
+  - name: create file
+    command: touch /home/yogita/yogi/ {{ var3 }}.txt
+  - name: create file
+    command: touch /home/yogita/yogi/ {{ var4 }}.txt
+  - name: create file
+    command: touch /home/yogita/yogi/ {{ var5 }}.txt

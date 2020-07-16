@@ -1,0 +1,7 @@
+---
+ - hosts: webserver
+   name: file separation program
+   vars_files:
+         - variable.yml
+   tasks:
+         - include: task.yml
